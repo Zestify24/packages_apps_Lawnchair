@@ -1,6 +1,9 @@
 # Lawnchair
 LAWN_ROOT := packages/apps/Lawnchair
 
+PRODUCT_SOONG_NAMESPACES += \
+    $(LAWN_ROOT)
+
 PRODUCT_PACKAGES += \
     Lawnchair \
     Lawnfeed
