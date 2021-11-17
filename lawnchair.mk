@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     Lawnchair \
+    Lawnicons \
     Lawnfeed
 
 PRODUCT_PACKAGE_OVERLAYS += $(LAWN_ROOT)/overlay
